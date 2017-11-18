@@ -31,7 +31,7 @@ class Skills extends Component {
 		return (
 			<div id="skills"><h2 className="heading">Skills</h2>
 				<ul>
-					{this.state.skills.map(station => <li key={station}><a href={station.url}
+					{this.state.skills.map(station => <li key={station.name}><a href={station.url}
 																		   target="_blank" rel="noopener">{station.name}</a></li>)}
 				</ul>
 			</div>);
