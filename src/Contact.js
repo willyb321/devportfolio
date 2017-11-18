@@ -7,7 +7,7 @@ class Contact extends Component {
 		return (
 			<div id="contact"><h2>Get in Touch</h2>
 				<div id="contact-form">
-					<form action="thank-you" data-netlify="true">
+					<form action="https://formspree.io/wbwilliam7@gmail.com" method="POST">
 						<input name="_subject" type="hidden"
 							   value="Contact request from personal website"></input><input
 						name="_replyto" placeholder="Your email" required="" type="email"></input>
