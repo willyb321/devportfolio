@@ -27,7 +27,8 @@ class Education extends Component {
 		return (
 			<div id="education"><h2 className="heading">Education</h2>
 				{
-					this.state.education.map(station => <div className="education-block" key={station.name}>
+					this.state.education.map(station =>
+						<div className="education-block" key={station.name}>
 							<h3>{station.name}</h3><span className="education-date">{station.date}</span>
 							<h4>{station.subtitle}</h4>
 							<p>{station.description}</p>
