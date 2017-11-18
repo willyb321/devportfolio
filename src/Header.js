@@ -4,7 +4,9 @@ import $ from 'jquery';
 
 export function scroll(e) {
 	// Treat as normal link if no-scroll class
-	if ($(this).hasClass('no-scroll')) return;
+	if ($(this).hasClass('no-scroll')) {
+		return;
+	}
 
 	e.preventDefault();
 	const heading = $(e.target).attr('href');
@@ -24,7 +26,9 @@ class Header extends Component {
 	render() {
 		return (
 			<header>
-				<div onClick={() => {$('header, body').removeClass('active')}} id="mobile-menu-close">
+				<div onClick={() => {
+					$('header, body').removeClass('active');
+				}} id="mobile-menu-close">
 					<span>Close</span>
 					<i className="fa fa-times" aria-hidden="true"></i>
 				</div>

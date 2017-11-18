@@ -90,9 +90,8 @@ class Projects extends Component {
 		if (i.img) {
 			return <div className="project-image"><img alt={i.imgAlt}
 													   src={i.img}/></div>;
-		} else {
-			return '';
 		}
+		return '';
 	}
 
 	render() {
