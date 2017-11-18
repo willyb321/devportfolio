@@ -1,31 +1,5 @@
 import React, {Component} from 'react';
 import './main.css';
-import $ from 'jquery';
-
-function createTimeLime() {
-	$('#experience-timeline').each(function () {
-		const $this = $(this); // Store reference to this
-		const $userContent = $this.children('div'); // user content
-		// Create each timeline block
-		$userContent.each(function () {
-			$(this).addClass('vtimeline-content').wrap('<div class="vtimeline-point"><div class="vtimeline-block"></div></div>');
-		});
-
-		// Add icons to each block
-		$this.find('.vtimeline-point').each(function () {
-			$(this).prepend('<div class="vtimeline-icon"><i class="fa fa-map-marker"></i></div>');
-		});
-
-		// Add dates to the timeline if exists
-		$this.find('.vtimeline-content').each(function () {
-			const date = $(this).data('date');
-			if (date) { // Prepend if exists
-				$(this).parent().prepend('<span class="vtimeline-date">' + date + '</span>');
-			}
-		});
-
-	});
-}
 
 class Experience extends Component {
 	constructor() {
@@ -39,23 +13,46 @@ class Experience extends Component {
 		};
 	}
 
+	static timeline(date) {
+		return (
+			<div>
+				<span className="vtimeline-date">{date}</span>
+			</div>
+		);
+	}
+
+	static timelineContent(station) {
+		return (<div className="vtimeline-content">
+			{Experience.timeline(station.date)}
+			<h3>{station.employer}</h3>
+			<h4>{station.title}</h4>
+			<p>{station.description}</p>
+		</div>);
+	}
+
+	timelineRoot(station) {
+		return (
+			<div key={station.title}>
+				<div className="vtimeline-icon"><i className="fa fa-map-marker"></i></div>
+				<div className="vtimeline-point">
+					<div className="vtimeline-block">
+						{Experience.timelineContent(station)}
+					</div>
+				</div>
+			</div>
+		);
+	}
+
 	render() {
 		return (
 			<div id="experience" className="background-alt">
 				<h2 className="heading">Experience</h2>
 				<div id="experience-timeline">
-					{this.state.jobs.map(station => <div key={station.title} data-date={station.date}>
-						<h3>{station.employer}</h3>
-						<h4>{station.title}</h4>
-						<p>{station.description}</p>
-					</div>)}
+					{this.state.jobs.map(station => this.timelineRoot(station))}
 				</div>
 			</div>
 		);
 	}
 }
 
-window.onload = () => {
-	createTimeLime();
-};
 export default Experience;
