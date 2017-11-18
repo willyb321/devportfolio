@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './App.css';
 import './main.css';
 import mediamate from './images/mediamate.png';
 import rss from './images/rss.png';
