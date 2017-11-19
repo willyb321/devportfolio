@@ -9,20 +9,18 @@ import Projects from './Projects';
 import Skills from './Skills';
 import Contact from './Contact';
 import Footer from './Footer';
-import MobileMenu from './MobileMenu';
 
 class App extends Component {
 	render() {
 		return (
 			<div className="App">
-				<MobileMenu/>
 				<Header/>
 				<Lead/>
-				<About/>
-				<Education/>
-				<Projects/>
-				<Skills/>
-				<Contact/>
+				<About name="about"/>
+				<Education name="education"/>
+				<Projects name="projects"/>
+				<Skills name="skills"/>
+				<Contact name="contact"/>
 				<Footer/>
 			</div>
 		);

@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './main.css';
-import $ from 'jquery';
+import * as Scroll from "react-scroll";
 
 class Footer extends Component {
 	render() {
@@ -11,9 +11,13 @@ class Footer extends Component {
 						<div className="col-sm-5 copyright"><p>Copyright © 2017 William Blythe<br/></p><p>Hosted By<a
 							href="https://www.netlify.com/"> Netlify</a></p></div>
 						<div className="col-sm-2 top"><span id="to-top" onClick={() => {
-							$('html, body').animate({
-								scrollTop: 0
-							}, 500);
+							Scroll.animateScroll.scrollToTop({
+								duration: 500,
+								delay: 0,
+								smooth: true,
+								spy: true,
+								hashSpy: true
+							})
 						}}>
 							<i className="fa fa-chevron-up"
 							   aria-hidden="true"></i></span>
