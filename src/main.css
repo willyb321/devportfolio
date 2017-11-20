@@ -10,6 +10,9 @@
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
 */
+/*
+Imports
+ */
 @import url(~font-awesome/css/font-awesome.min.css);
 @import url(~bootstrap/dist/css/bootstrap.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
@@ -94,7 +97,7 @@ header {
   animation-duration: 0.75s; }
   header ul {
     display: inline-block;
-    background: #fff;
+    background: #212529;
     text-align: center;
     padding: 10px;
     margin: 0;
@@ -530,12 +533,6 @@ footer {
     list-style: none;
     cursor: default;
     font-size: 1.2em; }
-
-.no-image .project-info {
-  position: relative;
-  margin: 0;
-  padding: 30px 15px;
-  transform: none; }
 
 /*
     -------------------------------

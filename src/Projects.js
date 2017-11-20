@@ -81,6 +81,20 @@ class Projects extends Component {
 					title: 'Elite: Dangerous LogWatcher',
 					description: `A ready-to-use module to parse the Elite: Dangerous log files.`,
 					url: 'https://github.com/willyb321/ed-logwatcher'
+				},
+				{
+					img: null,
+					imgAlt: null,
+					title: 'Devportfolio',
+					description: `You are looking at it.`,
+					url: 'https://github.com/willyb321/devportfolio'
+				},
+				{
+					img: null,
+					imgAlt: null,
+					title: 'HomeMonitor',
+					description: `System Monitor built with Meteor`,
+					url: 'https://github.com/willyb321/HomeMonitor'
 				}
 			]
 		};
