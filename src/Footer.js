@@ -8,8 +8,8 @@ class Footer extends Component {
 			<footer>
 				<div className="container">
 					<div className="row">
-						<div className="col-sm-5 copyright"><p>Copyright © 2017 William Blythe<br/></p><p>Hosted By<a
-							href="https://www.netlify.com/"> Netlify</a></p></div>
+						<div  className="col-sm-5 copyright"><p>Copyright © 2017 William Blythe<br/></p><p>Hosted By<a
+							target="_blank" rel="noopener noreferrer" href="https://www.netlify.com/"> Netlify</a></p></div>
 						<div className="col-sm-2 top"><span id="to-top" onClick={() => {
 							Scroll.animateScroll.scrollToTop({
 								duration: 500,

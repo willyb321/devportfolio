@@ -119,7 +119,7 @@ class Projects extends Component {
 								<div key={station.title} className={`project shadow-large ${!station.img ? 'no-image' : ''}`}>
 									{Projects.image(station)}
 									<div className="project-info"><h3>{station.title}</h3><p>{station.description}</p><a
-										href={station.url}>View
+										target="_blank" rel="noopener" href={station.url}>View
 										Project</a></div>
 								</div>
 							)
