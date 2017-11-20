@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './main.css';
-import * as Scroll from "react-scroll";
+import * as Scroll from 'react-scroll';
 
 class Footer extends Component {
 	render() {
@@ -17,7 +17,7 @@ class Footer extends Component {
 								smooth: true,
 								spy: true,
 								hashSpy: true
-							})
+							});
 						}}>
 							<i className="fa fa-chevron-up"
 							   aria-hidden="true"></i></span>

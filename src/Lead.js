@@ -11,7 +11,7 @@ class Lead extends Component {
 				<div id="lead-overlay"></div>
 				<div id="lead-down">
 					<span>
-					<i onClick={handleClick}  data-to={"about"} className="fa fa-chevron-down" aria-hidden="true"></i>
+					<i onClick={handleClick} data-to={'about'} className="fa fa-chevron-down" aria-hidden="true"></i>
 					</span>
 				</div>
 			</div>
