@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import './main.css';
 import Scroll from 'react-scroll';
 
-export function handleClick(e) {
+export function clickScroll(e) {
 	Scroll.scroller.scrollTo(e.target.getAttribute('data-to'), {
-		duration: 1500,
+		duration: 1300,
 		delay: 0,
 		smooth: true,
 		spy: true,
@@ -40,23 +40,23 @@ class Header extends Component {
 					</div>
 					<ul className="shadow" id="menu">
 						<li><a onClick={e => {
-							handleClick(e);
+							clickScroll(e);
 							this.setState({mobileMenuClass: ''});
 						}} data-to={'about'}>About</a></li>
 						<li><a onClick={e => {
-							handleClick(e);
+							clickScroll(e);
 							this.setState({mobileMenuClass: ''});
 						}} data-to={'education'}>Education</a></li>
 						<li><a onClick={e => {
-							handleClick(e);
+							clickScroll(e);
 							this.setState({mobileMenuClass: ''});
 						}} data-to={'projects'}>Projects</a></li>
 						<li><a onClick={e => {
-							handleClick(e);
+							clickScroll(e);
 							this.setState({mobileMenuClass: ''});
 						}} data-to={'skills'}>Skills</a></li>
 						<li><a onClick={e => {
-							handleClick(e);
+							clickScroll(e);
 							this.setState({mobileMenuClass: ''});
 						}} data-to={'contact'}>Contact</a></li>
 					</ul>

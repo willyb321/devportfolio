@@ -1,14 +1,13 @@
 /*!
     Title: Dev Portfolio Template
     Version: 1.2.1
-    Last Change: 08/28/2017
     Author: William Blythe
     Repo: https://github.com/willyb321/devportfolio
     Issues: https://github.com/willyb321/devportfolio/issues
 
     Description: This file contains all the styles associated with the page
     that don't come from third party libraries. This file gets compiled using
-    Gulp and send to the /css folder which is then loaded on the page.
+    webpack.
 */
 /*
 Imports
@@ -278,7 +277,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(23, 120, 205, 0.8);
+  background: rgba(34, 138, 230, 0.7);
   z-index: 1; }
 
 #lead-down {

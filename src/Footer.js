@@ -25,12 +25,12 @@ class Footer extends Component {
 						<div className="col-sm-5 social">
 							<ul>
 								<li>
-									<a href="https://github.com/willyb321/">
+									<a target="_blank" rel="noopener noreferrer" href="https://github.com/willyb321/">
 										<i className="fa fa-github" aria-hidden="true"></i>
 									</a>
 								</li>
 								<li>
-									<a href="http://stackoverflow.com/users/6407432/willyb321">
+									<a target="_blank" rel="noopener noreferrer" href="http://stackoverflow.com/users/6407432/willyb321">
 										<i className="fa fa-stack-overflow" aria-hidden="true">
 
 										</i>
