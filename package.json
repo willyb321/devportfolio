@@ -117,6 +117,7 @@
     "@types/react-dom": "^16.0.3",
     "@types/react-scroll": "^1.5.2",
     "@types/webpack": "^3.8.1",
-    "@types/webpack-dev-server": "^2.9.2"
+    "@types/webpack-dev-server": "^2.9.2",
+    "image-webpack-loader": "^3.4.2"
   }
 }

@@ -133,15 +133,29 @@ module.exports = {
         // back to the "file" loader at the end of the loader list.
 				oneOf: [
           // "url" loader works just like "file" loader but it also embeds
-          // assets smaller than specified size as data URLs to avoid requests.
-					{
-						test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
-						loader: require.resolve('url-loader'),
-						options: {
-							limit: 10000,
-							name: 'static/media/[name].[hash:8].[ext]'
-						}
-					},
+		  // assets smaller than specified size as data URLs to avoid requests.
+		  {
+			test: /\.(gif|png|jpe?g|svg)$/i,
+			use: [
+			  'file-loader',
+			  {
+				loader: 'image-webpack-loader',
+				options: {
+					optipng: {
+						enabled: false,
+					  },
+					  pngquant: {
+						quality: '65-90',
+						speed: 4
+					  },
+					  webp: {
+						quality: 75,
+						enabled: true
+					  }
+				},
+			  },
+			],
+		  },
           // Process JS with Babel.
 					{
 						test: /\.(js|jsx|mjs)$/,
