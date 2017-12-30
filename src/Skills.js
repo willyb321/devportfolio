@@ -34,8 +34,8 @@ class Skills extends Component {
 		return (
 			<div id="skills"><h2 className="heading">Skills</h2>
 				<ul>
-					{this.state.skills.map(station => <li key={station.name}><a href={station.url}
-																		   target="_blank" rel="noopener">{station.name}</a></li>)}
+					{this.state.skills.map(skill => <li key={skill.name}><a href={skill.url}
+																		   target="_blank" rel="noopener">{skill.name}</a></li>)}
 				</ul>
 			</div>);
 	}
