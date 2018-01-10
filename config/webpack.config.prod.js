@@ -139,20 +139,7 @@ module.exports = {
 			use: [
 			  'file-loader',
 			  {
-				loader: 'image-webpack-loader',
-				options: {
-					optipng: {
-						enabled: false,
-					  },
-					  pngquant: {
-						quality: '65-90',
-						speed: 4
-					  },
-					  webp: {
-						quality: 75,
-						enabled: true
-					  }
-				},
+				loader: 'image-webpack-loader'
 			  },
 			],
 		  },
