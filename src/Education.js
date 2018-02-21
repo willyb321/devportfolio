@@ -15,9 +15,9 @@ class Education extends Component {
 				},
 				{
 					name: 'TAFE',
-					date: 'January 2018 - Current',
+					date: 'February 2018 - Current',
 					subtitle: 'Technology',
-					description: `TBD`
+					description: `Currently studying a certification in Information and Digital Technology at TAFE. After I finish, I will be moving to a programming certification.`
 				}
 			]
 		};

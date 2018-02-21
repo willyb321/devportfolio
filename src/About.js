@@ -10,9 +10,7 @@ class About extends Component {
 						<div className="col-md-4"><h2 className="heading">About Me</h2></div>
 						<div className="col-md-8">
 							<p>
-								Hi, I'm William, and I develop software. I have currently just finished my last year
-							of High School (Year 12), studying Software Design and Development, Information Digital
-							Technology, Business Studies, plus the normal subjects (English, Maths). I will be doing TAFE in 2018.
+								Hi, I'm William, and I develop software. I am currently studying a certification in Information and Digital Technology at TAFE. After I finish, I will be moving to a programming certification.
 							</p>
 						</div>
 					</div>
