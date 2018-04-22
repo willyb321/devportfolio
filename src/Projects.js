@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './main.css';
 import mediamate from './images/mediamate.png';
+import coriolis from './images/coriolis.png';
 import rss from './images/rss.png';
 import elite from './images/elite.png';
 import pebbleEdsm from './images/pebble-edsm.svg';
@@ -18,6 +19,13 @@ class Projects extends Component {
 					description: `A full featured media centre, written in
 								Electron and Node.JS`,
 					url: 'https://github.com/willyb321/media_mate'
+				},
+				{
+					img: coriolis,
+					imgAlt: 'Coriolis',
+					title: 'Coriolis',
+					description: `A ship building website, for Elite Dangerous made with React`,
+					url: 'https://coriolis.edcd.io/'
 				},
 				{
 					img: elite,
