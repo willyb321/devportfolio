@@ -15,9 +15,15 @@ class Education extends Component {
 				},
 				{
 					name: 'TAFE',
-					date: 'February 2018 - Current',
-					subtitle: 'Technology',
-					description: `Currently studying a certification in Information and Digital Technology at TAFE. After I finish, I will be moving to a programming certification.`
+					date: 'February 2018 - June 2018',
+					subtitle: 'IDT Cert 3',
+					description: `Cert 3 in Information and Digital Technology at TAFE.`
+				},
+				{
+					name: 'TAFE',
+					date: 'July 2018 - Current',
+					subtitle: 'Programming Cert 4',
+					description: `Cert 4 in Programming at TAFE. Java and C#.`
 				}
 			]
 		};

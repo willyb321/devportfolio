@@ -19,12 +19,9 @@ class Skills extends Component {
 				{name: 'CSS', url: 'https://en.wikipedia.org/wiki/Cascading_Style_Sheets'},
 				{name: 'Mongoose', url: 'http://mongoosejs.com/'},
 				{name: 'Python', url: 'https://www.python.org/'},
-				{name: 'Ruby', url: 'https://www.ruby-lang.org/en/'},
-				{name: 'Golang', url: 'https://golang.org/'},
 				{name: 'C#', url: 'https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29'},
 				{name: 'Bash', url: 'https://en.wikipedia.org/wiki/Bash_(Unix_shell)'},
 				{name: 'ZSH', url: 'https://en.wikipedia.org/wiki/Z_shell'},
-				{name: 'PouchDB', url: 'https://pouchdb.com/'},
 				{name: 'MongoDB', url: 'https://www.mongodb.com/'}
 			]
 		};

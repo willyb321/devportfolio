@@ -13,19 +13,19 @@ class Projects extends Component {
 		this.state = {
 			projects: [
 				{
+					img: coriolis,
+					imgAlt: 'Coriolis',
+					title: 'Coriolis',
+					description: `A ship building website, for Elite Dangerous made with React. Over 1 million pageviews per week.`,
+					url: 'https://coriolis.edcd.io/'
+				},
+				{
 					img: mediamate,
 					imgAlt: 'Media Mate',
 					title: 'Media Mate',
 					description: `A full featured media centre, written in
 								Electron and Node.JS`,
 					url: 'https://github.com/willyb321/media_mate'
-				},
-				{
-					img: coriolis,
-					imgAlt: 'Coriolis',
-					title: 'Coriolis',
-					description: `A ship building website, for Elite Dangerous made with React`,
-					url: 'https://coriolis.edcd.io/'
 				},
 				{
 					img: elite,
@@ -124,7 +124,8 @@ class Projects extends Component {
 					<div className="row">
 						{
 							this.state.projects.map(station =>
-								<div key={station.title} className={`project shadow-large ${!station.img ? 'no-image' : ''}`}>
+								<div key={station.title}
+									 className={`project shadow-large ${!station.img ? 'no-image' : ''}`}>
 									{Projects.image(station)}
 									<div className="project-info"><h3>{station.title}</h3><p>{station.description}</p><a
 										target="_blank" rel="noopener" href={station.url}>View
