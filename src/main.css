@@ -96,7 +96,7 @@ header {
   animation-duration: 0.75s; }
   header ul {
     display: inline-block;
-    background: #212529;
+    background: #fff;
     text-align: center;
     padding: 10px;
     margin: 0;

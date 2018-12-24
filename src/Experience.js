@@ -6,9 +6,7 @@ class Experience extends Component {
 		super();
 		this.state = {
 			jobs: [
-				{date: 'September 2014 – September 2015', employer: 'TBD1', title: 'TBD1', description: 'Some words'},
-				{date: 'September 2015 – September 2016', employer: 'TBD2', title: 'TBD2', description: 'Some words'},
-				{date: 'September 2016 – September 2017', employer: 'TBD3', title: 'TBD3', description: 'Some words'}
+				{date: 'September 2018 – Current', employer: 'Intygrate', title: 'Junior Front-End Web Developer', description: 'Working with Intygrate DevTeam. Lots of fun and hard work.'}
 			]
 		};
 	}

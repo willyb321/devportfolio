@@ -9,6 +9,7 @@ import Projects from './Projects';
 import Skills from './Skills';
 import Contact from './Contact';
 import Footer from './Footer';
+import Experience from './Experience';
 
 class App extends Component {
 	render() {
@@ -17,6 +18,7 @@ class App extends Component {
 				<Header/>
 				<Lead/>
 				<About name="about"/>
+				<Experience name="about"/>
 				<Education name="education"/>
 				<Projects name="projects"/>
 				<Skills name="skills"/>

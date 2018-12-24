@@ -21,7 +21,7 @@ class Education extends Component {
 				},
 				{
 					name: 'TAFE',
-					date: 'July 2018 - Current',
+					date: 'July 2018 - Current (On hold)',
 					subtitle: 'Programming Cert 4',
 					description: `Cert 4 in Programming at TAFE. Java and C#.`
 				}
