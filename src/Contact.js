@@ -6,13 +6,14 @@ class Contact extends Component {
 		return (
 			<div id="contact"><h2>Get in Touch</h2>
 				<div id="contact-form">
-					<form action="https://formspree.io/wbwilliam7@gmail.com" method="POST">
+					<form name="Contact" method="POST" data-netlify="true">
 						<input name="_subject" type="hidden"
-							   value="Contact request from personal website"></input><input
-						name="_replyto" placeholder="Your email" required="" type="email"></input>
+							   value="Contact request from personal website"/>
+						<input
+							name="email" placeholder="Your email" required="true" type="email"/>
 						<textarea name="message"
 								  placeholder="Your message"
-								  required=""></textarea>
+								  required=""/>
 						<button type="submit">Send</button>
 					</form>
 				</div>
