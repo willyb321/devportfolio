@@ -13,7 +13,7 @@ class About extends Component {
 								Hi, I'm William, and I develop software.
 								I'm currently working on a Cert IV in Information and Digital Technology at Loftus TAFE.
 								I finished a Cert III in Information and Digital Technology at Loftus TAFE in 2018. 2017 was my last year of High School (Year 12), studying Software Design and Development, Information Digital Technology, Business Studies, plus the normal subjects (English, Maths).
-								I am currently working at Intygrate as a Junior Front-End Web Developer.
+								I am currently not working but seeking employment.
 							</p>
 						</div>
 					</div>
