@@ -24,6 +24,12 @@ class Education extends Component {
 					date: 'July 2018 - Current (On hold)',
 					subtitle: 'Programming Cert 4',
 					description: `Cert 4 in Programming at TAFE. Java and C#.`
+				},
+				{
+					name: 'TAFE',
+					date: 'February 2019 - June 2019',
+					subtitle: 'IDT Cert 4',
+					description: `Cert 4 in Information and Digital Technology at TAFE.`
 				}
 			]
 		};

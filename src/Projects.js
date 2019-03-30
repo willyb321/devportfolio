@@ -28,6 +28,13 @@ class Projects extends Component {
 					url: 'https://orbis.zone/'
 				},
 				{
+					img: null,
+					imgAlt: null,
+					title: 'Devportfolio',
+					description: `You are looking at it.`,
+					url: 'https://github.com/willyb321/devportfolio'
+				},
+				{
 					img: mediamate,
 					imgAlt: 'Media Mate',
 					title: 'Media Mate',
@@ -62,55 +69,6 @@ class Projects extends Component {
 					title: 'Electron Menubar Timetable',
 					description: `An electron app that allows you to have your timetable in your menubar.`,
 					url: 'https://github.com/willyb321/electron-menubar-timetable'
-				},
-				{
-					img: null,
-					imgAlt: null,
-					title: 'Wifi Transfer',
-					description: `Transfer files over the network using Zeroconf and Bonjour.`,
-					url: 'https://github.com/willyb321/wifi-transfer'
-				},
-				{
-					img: null,
-					imgAlt: null,
-					title: 'FileUpServe',
-					description: `Image host made for use with ShareX.`,
-					url: 'https://github.com/willyb321/fileupserve'
-				},
-				{
-					img: null,
-					imgAlt: null,
-					title: 'tsEDDN',
-					description: `A Typescript listener for the Elite Dangerous Data Network`,
-					url: 'https://github.com/willyb321/tsEDDN'
-				},
-				{
-					img: null,
-					imgAlt: null,
-					title: 'My Dotfiles',
-					description: `My configurations in the form of a git repository.`,
-					url: 'https://github.com/willyb321/.dotfiles'
-				},
-				{
-					img: null,
-					imgAlt: null,
-					title: 'Elite: Dangerous LogWatcher',
-					description: `A ready-to-use module to parse the Elite: Dangerous log files.`,
-					url: 'https://github.com/willyb321/ed-logwatcher'
-				},
-				{
-					img: null,
-					imgAlt: null,
-					title: 'Devportfolio',
-					description: `You are looking at it.`,
-					url: 'https://github.com/willyb321/devportfolio'
-				},
-				{
-					img: null,
-					imgAlt: null,
-					title: 'HomeMonitor',
-					description: `System Monitor built with Meteor`,
-					url: 'https://github.com/willyb321/HomeMonitor'
 				}
 			]
 		};
