@@ -6,8 +6,21 @@ class Experience extends Component {
 		super();
 		this.state = {
 			jobs: [
-				{date: 'September 2018 – February 2019', employer: 'Intygrate', title: 'Junior Front-End Web Developer', description: 'Worked with Intygrate\'s DevTeam. Lots of fun and hard work.'},
-				{date: '??? – ???', employer: 'Your Company?', title: 'Software Developer', description: 'I\'m currently seeking employment. Contact me using the form below.'},
+				{
+					date: "September 2018 – February 2019",
+					employer: "Intygrate",
+					title: "Junior Front-End Web Developer",
+					description:
+						"Worked with Intygrate's DevTeam. Lots of fun and hard work."
+				},
+				{
+					date: "May 2019 – Current",
+					employer: "LEAP Dev",
+					title: "Software Engineer",
+					description:
+						"Working as a software engineer for LEAP Dev / LEAP Legal Software."
+				}
+				// {date: '??? – ???', employer: 'Your Company?', title: 'Software Developer', description: 'I\'m currently seeking employment. Contact me using the form below.'},
 			]
 		};
 	}

@@ -7,13 +7,23 @@ class About extends Component {
 			<div id="about">
 				<div className="container">
 					<div className="row">
-						<div className="col-md-4"><h2 className="heading">About Me</h2></div>
+						<div className="col-md-4">
+							<h2 className="heading">About Me</h2>
+						</div>
 						<div className="col-md-8">
 							<p>
 								Hi, I'm William, and I develop software.
-								I'm currently working on a Cert IV in Information and Digital Technology at Loftus TAFE.
-								I finished a Cert III in Information and Digital Technology at Loftus TAFE in 2018. 2017 was my last year of High School (Year 12), studying Software Design and Development, Information Digital Technology, Business Studies, plus the normal subjects (English, Maths).
-								I am currently not working but seeking employment.
+								I'm currently working on a Cert IV in
+								Information and Digital Technology at
+								Loftus TAFE. I finished a Cert III in
+								Information and Digital Technology at
+								Loftus TAFE in 2018. 2017 was my last
+								year of High School (Year 12), studying
+								Software Design and Development,
+								Information Digital Technology, Business
+								Studies, plus the normal subjects
+								(English, Maths). I am currently working
+								at <a href="https://leapdev.io" rel="noopener noreferrer" targrt="_blank">LEAP Dev</a> as a Software Engineer.
 							</p>
 						</div>
 					</div>
@@ -24,4 +34,3 @@ class About extends Component {
 }
 
 export default About;
-
