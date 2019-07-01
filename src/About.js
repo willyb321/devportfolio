@@ -22,8 +22,7 @@ class About extends Component {
 								Software Design and Development,
 								Information Digital Technology, Business
 								Studies, plus the normal subjects
-								(English, Maths). I am currently working
-								at <a href="https://leapdev.io" rel="noopener noreferrer" targrt="_blank">LEAP Dev</a> as a Software Engineer.
+								(English, Maths). I am currently seeking part-time work.
 							</p>
 						</div>
 					</div>
