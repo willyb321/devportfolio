@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./main.css";
+import "./main.scss";
 
 class Skills extends Component {
 	constructor() {
