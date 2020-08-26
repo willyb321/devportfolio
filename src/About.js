@@ -13,9 +13,7 @@ class About extends Component {
 						<div className="col-md-8">
 							<p>
 								Hi, I'm William, and I develop software.
-								I'm currently working on a Cert IV in
-								Information and Digital Technology at
-								Loftus TAFE. I finished a Cert III in
+								I'm currently looking for part time work. I finished a Cert III in
 								Information and Digital Technology at
 								Loftus TAFE in 2018. 2017 was my last
 								year of High School (Year 12), studying
